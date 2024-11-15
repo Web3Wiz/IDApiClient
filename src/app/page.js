@@ -126,7 +126,7 @@ const GatewayApiTest = () => {
   return (
     <div className={styles.container}>
       <h1 className={styles.heading}>API Client</h1>
-      <h3 className={styles.small_heading}>Elite's Independent Drivers</h3>
+      <h3 className={styles.small_heading}>Elite&apos;s Independent Drivers</h3>
       <form onSubmit={handleSubmit} className={styles.form}>
         <div className={styles.formGroup}>
           <label className={styles.infolabel}>{infoLabel}</label>
