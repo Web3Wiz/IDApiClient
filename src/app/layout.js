@@ -4,9 +4,9 @@ import "./globals.css";
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata = {
-  title: "Lambda API Client",
+  title: "Independent Drivers API Client",
   description:
-    "Lambda API Client to test Amazon Gateway API, Lambda API End Point, Cognito Token Authentication, DB API and DB Interface",
+    "API Client to test Independent Drivers DB API and Database Calls",
 };
 
 export default function RootLayout({ children }) {
