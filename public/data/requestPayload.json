@@ -1,0 +1,347 @@
+[
+    {
+        "code": "S.ID.ACTION.AUTH.FAILURE",
+        "desc": "Failed Authentication",
+        "notes": "",
+        "payload": {
+            "ActionCode": "S.ID.ACTION",
+            "ViewName": "INSTRUCTIONS",
+            "ClientIP": "72.255.40.37",
+            "JsonReq": {
+                "JHeader": {
+                    "Client": "ELITE",
+                    "Source": "WebApp",
+                    "Target": "DBAPI",
+                    "DeviceType": "Apple",
+                    "DeviceInfo": "Mozilla/5.0 iPhone; CPU iPhone OS 16_5 like Mac OS X",
+                    "DeviceID": "ABCDEF12-34567890ABCDEF12",
+                    "ViewName": "INSTRUCTIONS",
+                    "ActionCode": "S.ID.ACTION",
+                    "ClientVersion": "1.0.0",
+                    "APIVersion": "1.0.0",
+                    "APILogin": "user@webapis.com",
+                    "APIPassword": "12345",
+                    "RequestedURL": "http://domain.com/WebAPI/ProcessRequest",
+                    "Debug": "false",
+                    "GPSLatitude": "40.78200",
+                    "GPSLongitude": "-73.97783",
+                    "GPSSpeed": "22",
+                    "GPSBearing": "55"
+                },
+                "JMetaData": {},
+                "JData": {
+                    "p_ACTION": "AUTH",
+                    "p_AUTH_TOKEN": ""
+                }
+            },
+            "Notes": "Test Notes ..."
+        }
+    },
+    {
+        "code": "S.ID.ACTION.AUTH.SUCCESS",
+        "desc": "Successful Authentication",
+        "notes": "Extract p_AUTH_TOKEN from URL e.g. https://idapp.eliteny.com/A6166B984C25441EB65134F584C50CEB OR https://idapp.eliteny.com?rid=A6166B984C25441EB65134F584C50CEB (whichever client app prefers)",
+        "payload": {
+            "ActionCode": "S.ID.ACTION",
+            "ViewName": "INSTRUCTIONS",
+            "ClientIP": "72.255.40.37",
+            "JsonReq": {
+                "JHeader": {
+                    "Client": "ELITE",
+                    "Source": "WebApp",
+                    "Target": "DBAPI",
+                    "DeviceType": "Apple",
+                    "DeviceInfo": "Mozilla/5.0 iPhone; CPU iPhone OS 16_5 like Mac OS X",
+                    "DeviceID": "ABCDEF12-34567890ABCDEF12",
+                    "ViewName": "INSTRUCTIONS",
+                    "ActionCode": "S.ID.ACTION",
+                    "ClientVersion": "1.0.0",
+                    "APIVersion": "1.0.0",
+                    "APILogin": "user@webapis.com",
+                    "APIPassword": "12345",
+                    "RequestedURL": "http://domain.com/WebAPI/ProcessRequest",
+                    "Debug": "false",
+                    "GPSLatitude": "40.78200",
+                    "GPSLongitude": "-73.97783",
+                    "GPSSpeed": "22",
+                    "GPSBearing": "55"
+                },
+                "JMetaData": {},
+                "JData": {
+                    "p_ACTION": "AUTH",
+                    "p_AUTH_TOKEN": "A6166B984C25441EB65134F584C50CEB"
+                }
+            },
+            "Notes": "Test Notes ..."
+        }
+    },
+    {
+        "code": "S.ID.ACTION.REJECT",
+        "desc": "When driver rejects the offer",
+        "notes": "Extract p_AUTH_TOKEN from URL e.g. https://idapp.eliteny.com/A6166B984C25441EB65134F584C50CEB OR https://idapp.eliteny.com?rid=A6166B984C25441EB65134F584C50CEB (whichever client app prefers)",
+        "payload": {
+            "ActionCode": "S.ID.ACTION",
+            "ViewName": "INSTRUCTIONS",
+            "ClientIP": "72.255.40.37",
+            "JsonReq": {
+                "JHeader": {
+                    "Client": "ELITE",
+                    "Source": "WebApp",
+                    "Target": "DBAPI",
+                    "DeviceType": "Apple",
+                    "DeviceInfo": "Mozilla/5.0 iPhone; CPU iPhone OS 16_5 like Mac OS X",
+                    "DeviceID": "ABCDEF12-34567890ABCDEF12",
+                    "ViewName": "INSTRUCTIONS",
+                    "ActionCode": "S.ID.ACTION",
+                    "ClientVersion": "1.0.0",
+                    "APIVersion": "1.0.0",
+                    "APILogin": "user@webapis.com",
+                    "APIPassword": "12345",
+                    "RequestedURL": "http://domain.com/WebAPI/ProcessRequest",
+                    "Debug": "false",
+                    "GPSLatitude": "40.78200",
+                    "GPSLongitude": "-73.97783",
+                    "GPSSpeed": "22",
+                    "GPSBearing": "55"
+                },
+                "JMetaData": {},
+                "JData": {
+                    "p_ACTION": "REJECT",
+                    "p_AUTH_TOKEN": "A6166B984C25441EB65134F584C50CEB"
+                }
+            },
+            "Notes": "Test Notes ..."
+        }
+    },
+    {
+        "code": "S.ID.ACTION.ACCEPT",
+        "desc": "When driver accepts the offer",
+        "notes": "Extract p_AUTH_TOKEN from URL e.g. https://idapp.eliteny.com/A6166B984C25441EB65134F584C50CEB OR https://idapp.eliteny.com?rid=A6166B984C25441EB65134F584C50CEB (whichever client app prefers)",
+        "payload": {
+            "ActionCode": "S.ID.ACTION",
+            "ViewName": "INSTRUCTIONS",
+            "ClientIP": "72.255.40.37",
+            "JsonReq": {
+                "JHeader": {
+                    "Client": "ELITE",
+                    "Source": "WebApp",
+                    "Target": "DBAPI",
+                    "DeviceType": "Apple",
+                    "DeviceInfo": "Mozilla/5.0 iPhone; CPU iPhone OS 16_5 like Mac OS X",
+                    "DeviceID": "ABCDEF12-34567890ABCDEF12",
+                    "ViewName": "INSTRUCTIONS",
+                    "ActionCode": "S.ID.ACTION",
+                    "ClientVersion": "1.0.0",
+                    "APIVersion": "1.0.0",
+                    "APILogin": "user@webapis.com",
+                    "APIPassword": "12345",
+                    "RequestedURL": "http://domain.com/WebAPI/ProcessRequest",
+                    "Debug": "false",
+                    "GPSLatitude": "40.78200",
+                    "GPSLongitude": "-73.97783",
+                    "GPSSpeed": "22",
+                    "GPSBearing": "55"
+                },
+                "JMetaData": {},
+                "JData": {
+                    "p_ACTION": "ACCEPT",
+                    "p_AUTH_TOKEN": "A6166B984C25441EB65134F584C50CEB"
+                }
+            },
+            "Notes": "Test Notes ..."
+        }
+    },
+    {
+        "code": "S.ID.ACTION.ARRIVE",
+        "desc": "When driver arrives at pickup location",
+        "notes": "Extract p_AUTH_TOKEN from URL e.g. https://idapp.eliteny.com/A6166B984C25441EB65134F584C50CEB OR https://idapp.eliteny.com?rid=A6166B984C25441EB65134F584C50CEB (whichever client app prefers)",
+        "payload": {
+            "ActionCode": "S.ID.ACTION",
+            "ViewName": "INSTRUCTIONS",
+            "ClientIP": "72.255.40.37",
+            "JsonReq": {
+                "JHeader": {
+                    "Client": "ELITE",
+                    "Source": "WebApp",
+                    "Target": "DBAPI",
+                    "DeviceType": "Apple",
+                    "DeviceInfo": "Mozilla/5.0 iPhone; CPU iPhone OS 16_5 like Mac OS X",
+                    "DeviceID": "ABCDEF12-34567890ABCDEF12",
+                    "ViewName": "INSTRUCTIONS",
+                    "ActionCode": "S.ID.ACTION",
+                    "ClientVersion": "1.0.0",
+                    "APIVersion": "1.0.0",
+                    "APILogin": "user@webapis.com",
+                    "APIPassword": "12345",
+                    "RequestedURL": "http://domain.com/WebAPI/ProcessRequest",
+                    "Debug": "false",
+                    "GPSLatitude": "40.78200",
+                    "GPSLongitude": "-73.97783",
+                    "GPSSpeed": "22",
+                    "GPSBearing": "55"
+                },
+                "JMetaData": {},
+                "JData": {
+                    "p_ACTION": "ARRIVE",
+                    "p_AUTH_TOKEN": "A6166B984C25441EB65134F584C50CEB"
+                }
+            },
+            "Notes": "Test Notes ..."
+        }
+    },
+    {
+        "code": "S.ID.ACTION.START",
+        "desc": "When driver starts the ride",
+        "notes": "Extract p_AUTH_TOKEN from URL e.g. https://idapp.eliteny.com/A6166B984C25441EB65134F584C50CEB OR https://idapp.eliteny.com?rid=A6166B984C25441EB65134F584C50CEB (whichever client app prefers)",
+        "payload": {
+            "ActionCode": "S.ID.ACTION",
+            "ViewName": "INSTRUCTIONS",
+            "ClientIP": "72.255.40.37",
+            "JsonReq": {
+                "JHeader": {
+                    "Client": "ELITE",
+                    "Source": "WebApp",
+                    "Target": "DBAPI",
+                    "DeviceType": "Apple",
+                    "DeviceInfo": "Mozilla/5.0 iPhone; CPU iPhone OS 16_5 like Mac OS X",
+                    "DeviceID": "ABCDEF12-34567890ABCDEF12",
+                    "ViewName": "INSTRUCTIONS",
+                    "ActionCode": "S.ID.ACTION",
+                    "ClientVersion": "1.0.0",
+                    "APIVersion": "1.0.0",
+                    "APILogin": "user@webapis.com",
+                    "APIPassword": "12345",
+                    "RequestedURL": "http://domain.com/WebAPI/ProcessRequest",
+                    "Debug": "false",
+                    "GPSLatitude": "40.78200",
+                    "GPSLongitude": "-73.97783",
+                    "GPSSpeed": "22",
+                    "GPSBearing": "55"
+                },
+                "JMetaData": {},
+                "JData": {
+                    "p_ACTION": "START",
+                    "p_AUTH_TOKEN": "A6166B984C25441EB65134F584C50CEB"
+                }
+            },
+            "Notes": "Test Notes ..."
+        }
+    },
+    {
+        "code": "S.ID.ACTION.ADD.STOP",
+        "desc": "When the passenger requests a stop",
+        "notes": "Extract p_AUTH_TOKEN from URL e.g. https://idapp.eliteny.com/A6166B984C25441EB65134F584C50CEB OR https://idapp.eliteny.com?rid=A6166B984C25441EB65134F584C50CEB (whichever client app prefers)",
+        "payload": {
+            "ActionCode": "S.ID.ACTION",
+            "ViewName": "INSTRUCTIONS",
+            "ClientIP": "72.255.40.37",
+            "JsonReq": {
+                "JHeader": {
+                    "Client": "ELITE",
+                    "Source": "WebApp",
+                    "Target": "DBAPI",
+                    "DeviceType": "Apple",
+                    "DeviceInfo": "Mozilla/5.0 iPhone; CPU iPhone OS 16_5 like Mac OS X",
+                    "DeviceID": "ABCDEF12-34567890ABCDEF12",
+                    "ViewName": "INSTRUCTIONS",
+                    "ActionCode": "S.ID.ACTION",
+                    "ClientVersion": "1.0.0",
+                    "APIVersion": "1.0.0",
+                    "APILogin": "user@webapis.com",
+                    "APIPassword": "12345",
+                    "RequestedURL": "http://domain.com/WebAPI/ProcessRequest",
+                    "Debug": "false",
+                    "GPSLatitude": "40.78200",
+                    "GPSLongitude": "-73.97783",
+                    "GPSSpeed": "22",
+                    "GPSBearing": "55"
+                },
+                "JMetaData": {},
+                "JData": {
+                    "p_ACTION": "ADD_STOP",
+                    "p_AUTH_TOKEN": "A6166B984C25441EB65134F584C50CEB"
+                }
+            },
+            "Notes": "Test Notes ..."
+        }
+    },
+    {
+        "code": "S.ID.ACTION.END",
+        "desc": "When the ride is completed",
+        "notes": "Extract p_AUTH_TOKEN from URL e.g. https://idapp.eliteny.com/A6166B984C25441EB65134F584C50CEB OR https://idapp.eliteny.com?rid=A6166B984C25441EB65134F584C50CEB (whichever client app prefers)",
+        "payload": {
+            "ActionCode": "S.ID.ACTION",
+            "ViewName": "INSTRUCTIONS",
+            "ClientIP": "72.255.40.37",
+            "JsonReq": {
+                "JHeader": {
+                    "Client": "ELITE",
+                    "Source": "WebApp",
+                    "Target": "DBAPI",
+                    "DeviceType": "Apple",
+                    "DeviceInfo": "Mozilla/5.0 iPhone; CPU iPhone OS 16_5 like Mac OS X",
+                    "DeviceID": "ABCDEF12-34567890ABCDEF12",
+                    "ViewName": "INSTRUCTIONS",
+                    "ActionCode": "S.ID.ACTION",
+                    "ClientVersion": "1.0.0",
+                    "APIVersion": "1.0.0",
+                    "APILogin": "user@webapis.com",
+                    "APIPassword": "12345",
+                    "RequestedURL": "http://domain.com/WebAPI/ProcessRequest",
+                    "Debug": "false",
+                    "GPSLatitude": "40.78200",
+                    "GPSLongitude": "-73.97783",
+                    "GPSSpeed": "22",
+                    "GPSBearing": "55"
+                },
+                "JMetaData": {},
+                "JData": {
+                    "p_ACTION": "END",
+                    "p_AUTH_TOKEN": "A6166B984C25441EB65134F584C50CEB"
+                }
+            },
+            "Notes": "Test Notes ..."
+        }
+    },
+    {
+        "code": "S.ID.ACTION.SAVE",
+        "desc": "When the driver saves passenger/dropoff info",
+        "notes": "Extract p_AUTH_TOKEN from URL e.g. https://idapp.eliteny.com/A6166B984C25441EB65134F584C50CEB OR https://idapp.eliteny.com?rid=A6166B984C25441EB65134F584C50CEB (whichever client app prefers)",
+        "payload": {
+            "ActionCode": "S.ID.ACTION",
+            "ViewName": "INSTRUCTIONS",
+            "ClientIP": "72.255.40.37",
+            "JsonReq": {
+                "JHeader": {
+                    "Client": "ELITE",
+                    "Source": "WebApp",
+                    "Target": "DBAPI",
+                    "DeviceType": "Apple",
+                    "DeviceInfo": "Mozilla/5.0 iPhone; CPU iPhone OS 16_5 like Mac OS X",
+                    "DeviceID": "ABCDEF12-34567890ABCDEF12",
+                    "ViewName": "INSTRUCTIONS",
+                    "ActionCode": "S.ID.ACTION",
+                    "ClientVersion": "1.0.0",
+                    "APIVersion": "1.0.0",
+                    "APILogin": "user@webapis.com",
+                    "APIPassword": "12345",
+                    "RequestedURL": "http://domain.com/WebAPI/ProcessRequest",
+                    "Debug": "false",
+                    "GPSLatitude": "40.78200",
+                    "GPSLongitude": "-73.97783",
+                    "GPSSpeed": "22",
+                    "GPSBearing": "55"
+                },
+                "JMetaData": {},
+                "JData": {
+                    "p_ACTION": "SAVE",
+                    "p_AUTH_TOKEN": "A6166B984C25441EB65134F584C50CEB",
+                    "p_PASSENGER_ADDRESS1": "3272 Gale Avenue ,New York, NY, United States",
+                    "p_PASSENGER_ADDRESS2": "New York, NY",
+                    "p_PASSENGER_NAME": "KAZIM BUKHARI"
+                }
+            },
+            "Notes": "Test Notes ..."
+        }
+    }
+]
