@@ -1,5 +1,43 @@
 [
     {
+        "code": "S.ID.ACTION.TEST",
+        "desc": "Test Action Code for Dynamic Backend",
+        "notes": "DeviceType = Apple, Android, Desktop / p_ACTION = AUTH, REJECT, ACCEPT, ARRIVE, START, ADD_STOP, END, SAVE, LOG ",
+        "payload": {
+            "ActionCode": "S.ID.ACTION.P",
+            "ViewName": "INSTRUCTIONS",
+            "ClientIP": "72.255.40.37",
+            "JsonReq": {
+                "JHeader": {
+                    "Client": "ELITE",
+                    "Source": "WebApp",
+                    "Target": "DBAPI",
+                    "DeviceType": "Apple",
+                    "DeviceInfo": "Mozilla/5.0 iPhone; CPU iPhone OS 16_5 like Mac OS X",
+                    "DeviceID": "ABCDEF12-34567890ABCDEF12",
+                    "ViewName": "INSTRUCTIONS",
+                    "ActionCode": "S.ID.ACTION.P",
+                    "ClientVersion": "1.0.0",
+                    "APIVersion": "1.0.0",
+                    "APILogin": "user@webapis.com",
+                    "APIPassword": "12345",
+                    "RequestedURL": "http://domain.com/WebAPI/ProcessRequest",
+                    "Debug": "false",
+                    "GPSLatitude": "40.78200",
+                    "GPSLongitude": "-73.97783",
+                    "GPSSpeed": "22",
+                    "GPSBearing": "55"
+                },
+                "JMetaData": {},
+                "JData": {
+                    "p_ACTION": "AUTH",
+                    "p_AUTH_TOKEN": "2520CF6C901E4D15B4D8426398EB5941"
+                }
+            },
+            "Notes": "Test Notes ..."
+        }
+    },
+    {
         "code": "S.ID.ACTION.AUTH.FAILURE",
         "desc": "Failed Authentication",
         "notes": "DeviceType = Apple, Android, Desktop / p_ACTION = AUTH, REJECT, ACCEPT, ARRIVE, START, ADD_STOP, END, SAVE, LOG ",
