@@ -374,9 +374,9 @@
                 "JData": {
                     "p_ACTION": "SAVE",
                     "p_AUTH_TOKEN": "A6166B984C25441EB65134F584C50CEB",
-                    "p_PASSENGER_ADDRESS1": "3272 Gale Avenue ,New York, NY, United States",
-                    "p_PASSENGER_ADDRESS2": "New York, NY",
-                    "p_PASSENGER_NAME": "KAZIM BUKHARI"
+                    "p_PARAM_1": "5656789452",
+                    "p_PARAM_2": "3272 Gale Avenue ,New York, NY, United States",
+                    "p_PARAM_3": "KAZIM BUKHARI"
                 }
             },
             "Notes": "Test Notes ..."
